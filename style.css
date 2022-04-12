@@ -1,0 +1,53 @@
+h1 {
+	text-align: center;
+	background: white;
+	color: #000;
+	font-size: 30px;
+	border-radius: 10px 10px 10px 10px;
+	border: 1.5px solid black;
+	padding: 10px 10px;
+}
+h2{
+	text-align: center;
+	font-size: 28px;
+}
+
+body {
+	background: #DCDCDC;
+}
+
+p {
+	text-align: center;
+	font-size: 25px;
+}
+
+img p{
+	text-align: center;
+}
+
+button{
+	color: white;
+	font-weight: bold;
+	border-radius:  5px;
+	width: 43%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+	font-size: 19px;
+	border-color: #C78C19;
+}
+
+.rodape{
+	background-color: #FFF;
+	font-size: 18px;
+	padding: 10px 10px;
+	font-weight: bold;
+}
