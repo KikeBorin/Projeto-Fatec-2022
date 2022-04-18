@@ -5,8 +5,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Operações com Números Decimais</title>
-		<link rel="stylesheet" href="Reset.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
 
 	</head>
 
@@ -23,14 +23,47 @@
 
 				<h2>Adição e Subtração</h2>
 
-				<p>Para realizar as operações de adição e subtração com números decimais, a regra é bem simples. Na montagem da operação você colocará sempre a vírgula de baixo de vírgula e realizará a conta normalmente.</p>
+				<p>Para realizarmos as operações de adição e subtração com números decimais, a regra é bem simples. Na montagem das operações precisaremos colocar sempre, a vírgula de baixo de vírgula e realizarmos as contas normalmente.</p>
 
 				<p>No resultado, você irá fazer a mesma coisa, colocará a vírgula na mesma posição, que se encontram as vírgulas, nos outros números.</p>
 
 				<p>Veja os exemplos:</p>
 
-				<p><img src="imagem Adição e Subtração com Números Decimais.jpg" alt="some text" width=819 height=165></p>
+				<p><img src="./imagem/imagem 1.jpg" alt="some text" width=100% height=100%></p>
+
+				<div class="calculoAd">
+					
+					<p><strong><u>Realize a Adição!</u></strong></p>
+
+					<input class="ad1" type="text">
+					+
+					<input class="ad2" type="text">
+					=
+					<p class="resultadoAd"></p>
+					
+					<button onclick="clicarAd()">CALCULAR</button>
+
+					<button onclick="limparAd()">LIMPAR</button>
+
+				</div>
 				
+				<div class="calculoSub">
+					
+					<p><strong><u>Realize a Subtração!</u></strong></p>
+
+					<input class="sub1" type="text">
+					-
+					<input class="sub2" type="text">
+					=
+
+					<p class="resultadoSub"></p>
+					
+					<button onclick="clicarSub()">CALCULAR</button>
+
+					<button onclick="limparSub()">LIMPAR</button>
+
+				</div>
+					
 			</div>
 
 			<div class="multiplicar">
@@ -43,7 +76,23 @@
 
 				<p>Veja o esquema a seguir:</p>
 
-				<p><img src="Multiplicação com Números Decimais.jpg" alt="some text" width=922 height=264></p>
+				<p><img src="./imagem/imagem 2.jpg" alt="some text" width=100% height=100%></p>
+
+				<div class="calculoMult">
+					
+					<p><strong><u>Realize a Multiplicação!</u></strong></p>
+
+					<input class="mult1" type="text">
+					x
+					<input class="mult2" type="text">
+					=
+					<p class="resultadoMult"></p>
+					
+					<button onclick="clicarMult()">CALCULAR</button>
+
+					<button onclick="limparMult()">LIMPAR</button>
+
+				</div>
 
 			</div>
 
@@ -54,36 +103,57 @@
 				<p>Para realizar a divisão com números decimais, você terá que primeiramente verificar se os números que estão no dividendo e no divisor da divisão, possuem a mesma quantidade de casas após à vírgula, se isso ocorrer você irá retirar as vírgulas dos dois números e irá realizar a divisão normalmente.</p>
 
 				<p>Se isso não ocorrer, você terá que acrescentar zeros, no número que tiver menor quantidade de casa após a vírgula, deixando-os iguais,  a partir daí você irá retirar as vírgulas e realizará a divisão.</p>
+				
+				<div class="calculoDiv">
+					
+					<p><strong><u>Realize a Divisão!</u></strong></p>
 
+					<input class="div1" type="text">
+					:
+					<input class="div2" type="text">
+					=
+					<p class="resultadoDiv"></p>
+					
+					<button onclick="clicarDiv()">CALCULAR</button>
+
+					<button onclick="limparDiv()">LIMPAR</button>
+
+				</div>
+
+			</div>
 			
-			</div class="videoCompleto">
-	
+			<div class="videoExplicativo">	
+
 				<p>Abaixo você encontrará uma explicação completa de como realizar as quatro operações utilizando números decimais.</p>
 
 				<p><iframe width="560" height="315" src="https://www.youtube.com/embed/97dsHdGjPG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+			</div>
 
+			<div class="videoExercicios">
 				<p>No vídeo abaixo, você encontrará exercícios resolvidos usando as quatro operações com números decimais.</p>
 
 				<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2gLppxW6N1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+			
+			</div>
 
+			<div class="forms">
 				<p>Faça a verificação de sua aprendizagem clicando nos links abaixo e bons estudos!<p>
 
-				<p><button><a href="https://docs.google.com/forms/d/e/1FAIpQLSeh2j4Zt9OAZkbZQmuUjhPG630_F_AtZ_pnksE9d-prSI2zTQ/viewform">Exercícios de Adição e Subtração com Números Decimais</a></button></p>
+				<p><button><a href="https://docs.google.com/forms/d/e/1FAIpQLSeh2j4Zt9OAZkbZQmuUjhPG630_F_AtZ_pnksE9d-prSI2zTQ/viewform" target="_blank">Exercícios de Adição e Subtração com Números Decimais</a></button></p>
 				
-				<p><button><a href="https://docs.google.com/forms/d/e/1FAIpQLScHrMKRpDr7d-OK6M44-0b7Ehjfxs0RMfbNuhTLpM_Lf7ThVA/viewform">Exercícios de Multiplicação com Números Decimais</a></button></p>
+				<p><button><a href="https://docs.google.com/forms/d/e/1FAIpQLScHrMKRpDr7d-OK6M44-0b7Ehjfxs0RMfbNuhTLpM_Lf7ThVA/viewform" target="_blank">Exercícios de Multiplicação com Números Decimais</a></button></p>
 
-				<p><button><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=3qZIQdENBE2kxXjjdOT21nZ_ejag2LBLgMotuqro039UMEhJS1laTlM4MllPQzFCQTRUNEVQSDRNNy4u">Exercícios de Divisão com Números Decimais</a></button></p>
-
+				<p><button><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=3qZIQdENBE2kxXjjdOT21nZ_ejag2LBLgMotuqro039UMEhJS1laTlM4MllPQzFCQTRUNEVQSDRNNy4u" target="_blank">Exercícios de Divisão com Números Decimais</a></button></p>
+			</div>
+		
 		</main>
+
+			<script src="./Js/javaScript.Js"></script>
 
 		<footer>
 			<p class="rodape">@Professor Fernando Borin</p>
 		</footer>
-
-		<script>
-
-		</script>
 	
 	</body>
-	
+
 </html>	
