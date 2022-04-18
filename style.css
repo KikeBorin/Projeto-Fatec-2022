@@ -1,41 +1,128 @@
 h1 {
 	text-align: center;
-	background: white;
+	background: lightblue;
 	color: #000;
 	font-size: 30px;
-	border-radius: 10px 10px 10px 10px;
-	border: 1.5px solid black;
-	padding: 10px 10px;
+	border: 1.8px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
 }
+
 h2{
 	text-align: center;
-	font-size: 28px;
+	font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 body {
-	background: #DCDCDC;
+	background: white;
+}
+p{
+    margin: 20px;
 }
 
-p {
-	text-align: center;
-	font-size: 25px;
+.adicionar_e_subtrair {
+    text-align: left;
+    font-size: 23px;
+    margin: 20px;
+    padding-top: 10px;
+    border: 1.5px solid black;
+    background-color: lightgrey;
 }
 
-img p{
-	text-align: center;
+input {
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.calculoAd{
+    text-align: center;
+    padding: 20px;
+    border: 1.5px dotted black;
+    margin: 20px;
+    display: inline-block;
+    width: 43%;
 }
 
-button{
-	color: white;
-	font-weight: bold;
-	border-radius:  5px;
-	width: 43%;
+.calculoSub{
+    text-align: center;
+    padding: 20px;
+    border: 1.5px dotted black;
+    margin: 20px;
+    display: inline-block;
+    width: 43.5%;
+}
+
+.multiplicar{
+    text-align: left;
+    font-size: 23px;
+    margin: 20px;
+    padding-top: 10px;
+    border: 1.5px solid black;
+    background-color: lightgrey;
+}
+
+.calculoMult{
+    text-align: center;
+    padding: 20px;
+    border: 1.5px dotted black;
+    margin: 20px;
+}
+
+.dividir{
+    text-align: left;
+    font-size: 23px;
+    margin: 20px;
+    padding-top: 10px;
+    border: 1.5px solid black;
+    background-color: lightgrey;
+}
+
+.calculoDiv{
+    text-align: center;
+    padding: 20px;
+    border: 1.5px dotted black;
+    margin: 20px;
+}
+
+.videoExplicativo{
+    text-align: center;
+    font-size: 23px;
+    margin: 20px;
+    border: 1.5px solid black;
+    background-color: lightgrey;
+}
+
+.videoExercicios{
+    text-align: center;
+    font-size: 23px;
+    margin: 20px;
+    border: 1.5px solid black;
+    background-color: lightgrey;
+}
+
+.forms{
+    text-align: center;
+    font-size: 23px;
+    margin: 20px;
+    border: 1.5px solid black;
+    background-color: lightgrey;
+}
+
+#imagem {
+    image-resolution: 100%;
 }
 
 a {
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
+    font-weight: bold;
+	border-radius: 5px;
+	width: 50%;
 }
 
 a:hover {
@@ -46,8 +133,10 @@ a:hover {
 }
 
 .rodape{
-	background-color: #FFF;
 	font-size: 18px;
-	padding: 10px 10px;
 	font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 1.5px solid black;
+    background: lightblue;
 }
